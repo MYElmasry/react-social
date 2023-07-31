@@ -53,7 +53,7 @@ export default function Topbar() {
             </div>
             <Link to="/profile">
               <img
-                src="/assets/person/1.jpeg"
+                src="assets/person/1.jpeg"
                 alt=""
                 className="object-cover w-8 h-8 rounded-full cursor-pointer topbarImg"
               />

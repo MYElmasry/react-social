@@ -6,12 +6,12 @@ export default function Rightbar({ profile }) {
     return (
       <>
         <div className="flex items-center">
-          <img className="w-10 h-10 mr-[10px]" src="/assets/gift.png" alt="" />
+          <img className="w-10 h-10 mr-[10px]" src="assets/gift.png" alt="" />
           <span className=" font-light text-[15px]">
             <b>Pola Foster</b> and <b>3 other friends</b> have a birthday today.
           </span>
         </div>
-        <img className="w-full rightbarAd" src="/assets/ad.png" alt="" />
+        <img className="w-full rightbarAd" src="assets/ad.png" alt="" />
         <h4 className="text-lg font-medium mb-[10px]">Online Friends</h4>
         <ul className="p-0 m-0 list-none">
           {users.map((u) => {

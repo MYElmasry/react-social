@@ -52,7 +52,7 @@ export default function Share() {
         <div className="flex items-center">
           <img
             className=" w-[50px] h-[50px] rounded-full object-cover mx-[10px]"
-            src="/assets/person/1.jpeg"
+            src="assets/person/1.jpeg"
             alt=""
           />
           <input
