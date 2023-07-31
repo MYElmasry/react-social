@@ -4,10 +4,10 @@ Social media clone Using React.js
 
 ## Live Demo
 
-You can view a live demo of the Nile Mart website [here](https://myelmasry.github.io/react-social/).
+You can view a live demo of the React Social website [here](https://myelmasry.github.io/react-social/).
 
 ## Libraries and Frameworks Used
-The following libraries and frameworks were used in the development of Nile Mart:
+The following libraries and frameworks were used in the development of React Social:
 * Redux.js
 * Tailwind CSS
 * Material UI
@@ -21,4 +21,4 @@ To use React Social on your own machine, follow these steps:
 3. Start the development server using npm start.
 
 ## Contributing
-If you would like to contribute to Nile Mart, please feel free to fork this repository and submit a pull request with your changes. We welcome any contributions that improve the website's functionality or user experience.
+If you would like to contribute to React Social, please feel free to fork this repository and submit a pull request with your changes. We welcome any contributions that improve the website's functionality or user experience.
