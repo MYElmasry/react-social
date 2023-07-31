@@ -1,0 +1,56 @@
+.rightbar {
+  flex: 3.5;
+  height: calc(100vh - 50px);
+  top: 50px;
+  direction: rtl;
+}
+.rightbar::-webkit-scrollbar-track {
+  background-color: white;
+}
+.rightbar::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 5px;
+}
+.rightbar:hover::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.rightbar:hover::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+  border-radius: 5px;
+}
+.rightbarWrapper {
+  direction: ltr;
+}
+.rightbarAd {
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.rightbarInfo {
+  margin-bottom: 30px;
+}
+.rightbarInfoItem {
+  margin-bottom: 10px;
+}
+.rightbarInfoKey {
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+.rightbarInfoValue {
+  font-weight: 300;
+}
+
+.rightbarFollowing {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+  align-items: center;
+}
+.rightbarFollowing .rightbarFollowingImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
